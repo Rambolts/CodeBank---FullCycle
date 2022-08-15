@@ -1,0 +1,32 @@
+link video: https://www.youtube.com/watch?v=1yu9084sVjs
+
+É um framework, uma stack de recursos usado para desenvolver o back-end do lado servidor.
+Utilizando TypeScript
+Arquitetura MVC
+
+Angular, React, VueJs (browser - front) != NestJs (servidor - back)
+
+Nuxt.js - Frontend utilizando paradigma de server-side rendering (Vue.js)
+Nest.js - Aplicação Backend
+Next.js - Frontend utilizando paradigma de server-side rendering (React)
+Knex.js - Banco de dados
+
+----------------------------------------------------------------------------------------------------
+
+instalando nodejs: 
+	https://github.com/nodesource/distributions/blob/master/README.md
+
+abrindo a pasta do projeto e rodando:
+	sudo npm install -g @nestjs/cli
+
+criando aplicação nest:
+	nest (para saber mais)
+	nest new [nome]
+
+Para podermos executar a aplicação:
+	npm start (voltando pra quando queremos só levantar o servidor em produção)
+	npm run start:dev (ambiente de desenvolvimento)
+
+58:00 --
+
+npm install typeorm sqlite3 @nestjs/typeorm
